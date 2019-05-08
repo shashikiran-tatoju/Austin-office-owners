@@ -1,0 +1,107 @@
+ @font-face{
+     font-family: Poppins-SemiBold;
+     src:url(../../assets/fonts/Poppins-SemiBold.ttf);
+ }
+ 
+ 
+ .BOFIcon {
+    background: url(../../assets/images/icon-1.png) no-repeat;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    background-size: 70px;
+} 
+.WA--pdg{
+    padding: 5% 0%; 
+}
+
+.whyaustin_header{
+  width: 230px;
+  font-family: Poppins-Bold;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  font-size: 39px;
+  color: var(--black);
+}
+.whyAustin__subheader{
+    @extend.whyaustin_header;
+    width: 264px;
+    font-size: 22px;
+    line-height: 1.18;
+    color: var(--black);
+}
+.whyAustin__headerpara{
+  @extend.whyaustin_header;
+  width: 264px;
+  font-family: Nunito-Regular;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.6;
+  color: #232323;
+}
+.pding--0px{
+    padding: 0px !important; 
+}
+.whypdg--btm{
+    padding-bottom: 6% !important;
+}
+.GRIcon{
+    @extend .BOFIcon; 
+    background: url(../../assets/images/icon-2.png) no-repeat;
+    background-size: 70px;
+
+}
+
+.EGIcon{
+    @extend .BOFIcon; 
+    background: url(../../assets/images/icon-3.png) no-repeat;
+    background-size: 70px;
+    
+}
+.URIcon{
+    @extend .BOFIcon; 
+    background: url(../../assets/images/icon-4.png) no-repeat;
+    background-size: 70px;
+
+}
+.HEAIcon{
+    @extend .BOFIcon; 
+    background: url(../../assets/images/icon-5.png) no-repeat;
+    background-size: 70px;
+
+}
+.groupimg{
+    width: 344px;
+  height: 311px;
+}
+
+.whycont{
+   padding-bottom: 37px;
+}
+.wayAustin__About{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #001834;
+    
+}
+.wayAustin__text{ 
+    @extend.whyaustin_header;  
+    width: 539px;
+    font-family: Poppins-SemiBold;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.18;
+    color: #ffffff;
+    
+}
+.aboutpd--top{
+    padding-top: 8%;
+}
+.brd--btm{
+    border-bottom: 1px solid #dadada;
+}

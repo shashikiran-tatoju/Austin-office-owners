@@ -1,0 +1,271 @@
+
+@media screen and (max-width: 576px){
+ //---------------------------------   Banner Content Media Queries Starting ---------------------------
+    .maincontainer { 
+        background-size: 100% 54% !important;
+        padding: 0%;
+    }
+    .maincontainer__content {
+        width: 95%;
+        margin: 0px auto;   
+    }
+    .navbar-toggler-icon{
+        width: 48px;
+        height: 40px;
+        background: url(../images//134216-48.png) no-repeat !important;
+    }
+    .hamberger__bgclr{
+        border: none;
+        outline: none !important;
+    }
+    .bg-light {
+        background-color: transparent !important;
+    }
+    .NavbarHeading {
+        top: 5px; 
+    }
+    .header__logoimg { 
+        height: 50px !important;  
+        background-position: 8px 6px; 
+    }
+   .navbar__collapse {
+        position: absolute;
+        top: 103px;
+        width: 100%;
+        background-color: rgb(248, 249, 250);
+        margin: 0px auto;
+    }
+    .navvbar__ul{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .navbar__li{
+        text-align: center;
+        border-bottom: 1px solid;
+    }
+    .maincontainer__AT { 
+        font-size: 15px; 
+        width: 100%;
+    }
+    .maincontainer__BTL {
+        width: 80%;
+        font-size: 25px !important;
+        line-height: 0.4; 
+    }
+    .maincontainer__USNews { 
+        font-size: 14px; 
+        width: 100%;
+    }
+    .bgClr--col2,.bgClr--col1,.bgClr--col3,.bgClr--col4 { 
+        height: 155px !important;
+        width: 50% !important;
+    }
+    .pdg--all {
+        padding: 4% 0% 0% 4% !important;
+
+    }
+    .row { 
+        margin: 0px !important;
+    }
+    .col__text1 {
+        width: 100%; 
+        font-size: 20px !important;
+    }
+    .col__text2 {
+        width: 98% !important;  
+        font-size: 15px !important; 
+        height: 30px; 
+    }
+    .col__text3 { 
+        font-size: 12px; 
+        width: 100%;
+    }
+    .mrg--tp {
+        margin: 19.5% 0% 0% 0% !important;
+    } 
+    .container{
+        width: 90% !important;
+        margin: 0px auto; 
+    }
+     .mob--width{
+        width: 100% !important;
+        margin: 0px auto;
+    } 
+ //---------------------------------    Banner Content Media Queries Ending  --------------------------- 
+
+ //--------------------------------     Why Austin Media Queries Starting     --------------------------
+ .whyaustin_header{
+    width: 100%; 
+    font-size: 30px;
+    color: var(--black);
+    padding: 10px 0px;
+}    
+ .whycont { 
+        padding-top: 38px; 
+    }
+    .mobileView__bgwidth{
+        width: 20% !important;
+        padding: 5px 0px 0px 0px !important;
+    }
+    .mobileView__txtWidth{
+        width: 80%;
+        padding-left: 10%;
+    }
+    .BOFIcon, .GRIcon, .EGIcon, .URIcon, .HEAIcon { 
+        width: 60px;
+        height: 60px;  
+        background-size: 60px;
+    }
+    .whyAustin__subheader{ 
+        font-size: 14px;
+        color: var(--black);
+    }
+    .whyAustin__headerpara{ 
+        font-size: 13px;
+        color: var(--black);
+    } 
+    .groupimg {
+         width: 100%;
+         height: auto;
+    }
+    .aboutpd--top {
+        padding: 10% 0% 0% 0%;
+    }
+    .wayAustin__text {
+        width: 95% !important;
+        font-size: 14px;
+        padding: 0px !important;
+    }
+    .whyAustinContent__text{
+        width: 100%;
+        font-size: 14px;
+    }
+    .whyaustinimg {
+        width: 100%;
+        height: auto !important;
+    }
+    .mob--pdg0px{
+        padding: 0px ;
+    }
+ //--------------------------------    Why Austin Media Queries Ending   --------------------------------
+
+ //--------------------------------    Austin Office Market Starting      -------------------------------
+    .display--none{
+        display: block !important;
+    }
+    .display--block{
+        display: none !important;
+    } 
+    .AOM__heading {
+        font-size: 30px; 
+    }
+    .AOMC {
+        width: 100%;
+    }
+    .AOMC__img { 
+        width: 45px;
+        height: 45px;
+        margin: 15px 10px 0px 60px;
+        padding: 0px !important;
+    }
+    .AMOC__text { 
+        height: 15px; 
+        font-size: 13px; 
+        padding: 3% 0% 0% 30%;
+    }
+    .AMOC__number { 
+        font-size: 15px; 
+    } 
+    .AOM__absorption {
+        width: 100%;
+        font-size: 14px;
+    }
+    .AOM__findmore {
+        width: 100%;
+        margin-top: 8% !important;
+    }
+ //--------------------------------    Austin Office Market Ending             -----------------------
+ 
+ //--------------------------------    Austin's Largest Office Owners Starting   ----------------------
+    .TopOfficeOwner__heading {
+        width: 90%;
+        margin: 0px auto; 
+        font-size: 24px !important;
+        padding: 8% 0% !important;
+    }
+    .display--none{
+        display: block;
+        text-align: left;
+    }
+    .display--block{
+        display: none;
+    }
+    .TopOfficeOwnerContent__text1 {
+        width: 100%;
+        padding: 6px 0px 0px 0px; 
+        font-size: 20px; 
+    }
+    .TopOfficeOwnerContent__text2 {
+        width: 100%; 
+        font-size: 13px; 
+    }
+    .TopOfficeOwnerContent__button {
+        width: 100%;
+        margin-top: 15px;
+    }
+ //-----------------------------    Austin's Largest Office Owners Ending    ------------------------
+
+ //-----------------------------     Austin Landscape Starting                -----------------------
+ .austinland__header {
+    width: 100%;
+    font-size: 30px;
+ }
+ .austinland__img {
+        width: 100%;
+        height: auto;
+    }
+    .mapimg {
+        padding: 30px 0px;
+    }
+    .austinlandpstin{
+        padding: 0px;
+    }
+    .austinlandpstin__ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    .ulli { 
+        font-size: 12px;
+    }
+    .btncnt {
+        padding: 20px 0px;
+    }
+    .btn-secondary { 
+        width: 100%;
+        margin: 0px 0px 15px 0px !important;
+    }
+ //--------------------------------------   Austin Landscape Ending       -----------------------------
+
+ //--------------------------------------    Contact US Starting          -----------------------------   
+     .ContactUs {
+        width: 95%;
+        margin: 0 auto;
+    } 
+    .sendButton {
+         width: 100%;
+    } 
+    .cntheader {
+        font-family: Poppins-Bold;
+        font-size: 30px;
+        padding: 5% 0%;
+        margin: 0px !important;
+    }
+    .footerpara {
+        padding: 20px 0px;
+        width: 68%;
+        margin: 0px auto;
+    }
+    .customSelect{
+        padding: 0px 0px 0px 30px !important;
+    }
+}

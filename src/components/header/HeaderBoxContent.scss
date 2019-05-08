@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../../assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family:Nunito-Regular;
+  src: url(../../assets/fonts/Nunito-Regular.ttf);
+}
+
+.col__text{
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 187px;
+}
+.col__text1{ 
+  width: 49px;
+  font-family: Poppins-Bold;
+  font-size: 39px;
+  font-weight: bold;
+  line-height: 1.54;
+}
+.col__text2{ 
+  width: 187px;
+  height: 80px;
+  font-family: Poppins-Bold;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.18;
+}
+.col__text3{ 
+  width: 187px;
+  font-family:Nunito-Regular ;
+  font-size: 15px;
+  line-height: 1.73; 
+} 

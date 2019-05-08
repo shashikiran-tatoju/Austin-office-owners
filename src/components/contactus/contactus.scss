@@ -1,0 +1,71 @@
+@font-face{
+    font-family:Poppins-Bold;
+    src:url(../../assets/fonts/Poppins-Bold.ttf);  
+}
+@font-face{
+    font-family: Nunito-SemiBold;
+    src: url(../../assets/fonts/Nunito-SemiBold.ttf);
+}
+.ContactUs{
+    width: 721px;
+    margin: 0 auto;
+}
+
+.sendButton{
+    height: 60px;
+    width: 171px;
+    background-color: #003681; 
+    color: #fff;
+    border-radius: 0px;
+}
+.sendButton:hover{ 
+    color: #000;
+    background-color: #ffffff; 
+    border: 1px solid #000000;    
+}
+
+.bgColor{
+    background-color: #f0f0f0; 
+}
+.contact__errmsg{
+    background: url(../../assets//images/warningIcon.png) no-repeat;
+    background-size: 30px;
+    padding-left: 40px;
+    color: #ff0000; 
+} 
+.contact__sucessmsg{
+    background: url(../../assets//images/sucessIcon.png) no-repeat;
+    background-size: 23px;
+    padding-left: 35px;
+    color: #000000;
+}
+.form-control{
+    border-radius: unset !important;
+    background-color: #f0f0f0 !important;
+    border: none;
+     
+}
+.txtname--height{
+    height: 56px !important;
+}  
+.custom-select { 
+    border-radius:unset;  
+    border: none;
+
+}
+.cntheader{
+    font-family: Poppins-Bold;
+    font-size: 28px;
+}
+
+ .form-control::placeholder {
+  font-family: Nunito-SemiBold;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4f4f4f;
+  padding: 10px 15px;
+  }

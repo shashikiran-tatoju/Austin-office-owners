@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: Nunito-Regular;
+    src: url(../fonts/Nunito-Regular.ttf);
+  }
+
+
+.maincontainer{
+    width:100%;
+    background: url(../images/pennybacker_bridge_austin-wallpaper-2048x1152@3x.png) no-repeat;
+    height: 897px;
+    object-fit: contain;
+    background-size: 100% 103%;
+    padding: 0px 0px 64px 0px;
+}
+.header__logoimg{
+    background: url(../images/logo3.png) no-repeat;
+    height: 90px;
+    width: 137px;
+    background-color: #003681;
+    background-position: 8px 25px; 
+    z-index: 2;
+    float:left;
+    text-indent: -99999em;
+    cursor: pointer;
+    background-size: 115px;
+}
+ .NavbarHeading{
+  top: 40px;  
+  padding: 0rem !important;
+  color: rgba(0, 0, 0, 0.97)!important; 
+ } 
+
+//  .hamberger__bgclr{
+//     background-color: #f8f9fa !important;
+//  }
+ .navbar-toggler{
+   margin-left: auto !important;
+   background-color: #f8f9fa;
+ }
+ .WhyAustin{
+ font-family: Poppins-SemiBold; 
+ 
+ }
+ .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: rgba(0, 0, 0, 0.97)!important;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: Poppins-SemiBold;
+}
+.nav-link:hover{
+    color:#003681!important;
+}
+
+ .mr--mrgn{
+     margin-right: 5%;
+     font-family: Poppins;
+ }
+ .maincontainer__content{ 
+    width: 56%;
+    margin: 0px auto;
+    color: #ffffff;
+    letter-spacing: normal;
+    font-style: normal;
+    font-stretch: normal;
+ }
+ .maincontainer__AT{
+    margin-top: 20%; 
+    width: 381px; 
+    padding: 10px 0px ;
+    font-size: 22px; 
+    line-height: 1.18;  
+    font-family: Poppins-Bold;  
+ }
+ .maincontainer__BTL{
+    width: 381px;
+    font-family: Poppins-Bold;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+ }
+ .maincontainer__USNews{ 
+    width: 381px;
+    font-family: Nunito-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #ffffff;
+ }
+ .mrg--tp{
+     margin-top: 10.5%;
+ }
+ .bgClr--col1{
+    background-color: #ff6666;
+    height: 234px;
+    
+} 
+.pdg--all{
+    padding: 2% 0% 0% 5% ;
+}
+.bgClr--col2{
+    background-color: #ffc038;
+    height: 234px;
+} 
+.bgClr--col3{
+    background-color: #31b2e0;
+    height: 234px;
+}
+.bgClr--col4{
+    background-color: #34304c;
+    height: 234px;
+}
+ 
+   

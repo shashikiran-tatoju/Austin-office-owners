@@ -1,0 +1,55 @@
+@font-face{
+    font-family:Nunito-Regular;
+    src:url(../../assets/fonts/Nunito-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-Regular;
+    src:url(../../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-SemiBold;
+    src:url(../../assets/fonts/Poppins-SemiBold.ttf);
+}
+.AOMC{
+  width: 264px;
+  height: 70px;
+  background-color: #f2faf7;
+  margin: 5% 0% 0% 0%;
+}
+.AOMC__img{
+    float: left;
+    padding: 5% 0% 0% 6%;
+    width: 50px;
+  height: 50px;
+}
+.AMOC__text{
+    padding: 5% 0% 0% 30%;
+    // font-family:Poppins-Regular;
+    // font-weight: 500;
+    // font-style: normal;
+    // margin: 0px; 
+    // font-size: 15px;
+    // line-height: normal;
+    // letter-spacing: normal;
+    // color: #232323;
+    // width: 57px;
+  height: 20px;
+  font-family: Nunito-Regular;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #232323;
+}
+.AMOC__number{
+    padding: 1% 0% 0% 30%; 
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--black);
+}

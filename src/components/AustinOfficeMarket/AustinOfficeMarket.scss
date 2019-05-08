@@ -1,0 +1,87 @@
+ @font-face{
+     font-family:Poppins-Regular;
+     src:url(../../assets/fonts/Poppins-Regular.ttf);
+ }
+ @font-face{
+    font-family:Nunito-Regular;
+    src:url(../../assets/fonts/Nunito-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-SemiBold;
+    src:url(../../assets/fonts/Poppins-SemiBold.ttf);
+}
+@font-face{
+    font-family: Poppins-SemiBold;
+    src:url(../../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: Poppins-Bold;
+    src:url(../../assets/fonts/Poppins-Bold.ttf);
+}
+.AOM__heading{ 
+    font-family: Poppins-Bold;
+  font-size: 39px;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--black);
+  padding: 5% 0;
+}
+.AOM__cbre{ 
+    padding: 8% 0% 0% 0%;
+    font-family: Nunito-Regular;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #232323;
+}
+
+.AOM__downWith{ 
+    font-family: Poppins-Bold;
+    font-size: 52px;
+    width: 721px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: #003681;
+    margin: 1% 0 0 0 ;
+}
+.AOM__absorption{
+  font-family:Poppins-Medium;
+  width: 539px;
+  height: 182px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: var(--black);
+ padding:06% 0%;
+}
+.AOM__findmore{
+    width: 135px;
+    padding: 17px 0px;
+    font-family: Poppins-SemiBold;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    border: none;
+    background-color: #003681;
+    cursor: pointer;
+    margin-top: 8%;
+}
+.AOM--pdng{
+    padding-bottom: 5%;
+}
+.AOM__source{
+    font-weight: 600;
+}

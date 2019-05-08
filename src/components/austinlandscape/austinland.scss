@@ -1,0 +1,168 @@
+@font-face {
+    font-family:Nunito-Bold;
+    src: url(../../assets/fonts/Nunito-SemiBold.ttf);
+  }
+  @font-face {
+    font-family:Poppins-Bold;
+    src: url(../../assets/fonts/Poppins-Bold.ttf);
+  }
+  @font-face {
+    font-family:Nunito-Regular;
+    src: url(../../assets/fonts/Nunito-Regular.ttf);
+  }
+  @font-face {
+    font-family:Poppins-SemiBold;
+    src: url(../../assets/fonts/Poppins-SemiBold.ttf);
+  }
+  .container {
+      width: 75% ;
+  }
+.austinland{
+      padding: 0px !important;
+  }
+.pdg--0px{
+    padding:0px !important;
+}
+.austinland__img{
+    width:100% ;
+    height:800px ;
+}  
+.austinland__header{
+  padding: 8% 0%;
+  width: 367px;
+  font-family: Poppins-Bold;
+  font-size: 39px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--black);
+}
+.mapimg{
+    padding: 30px 30px;
+}
+
+.austinland__limedium-green{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #36b142;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #fff;
+    font-family: Nunito-Regular;
+}
+    
+.ulli{
+    list-style:none;
+    padding: 8px 0px;
+    width: 100%;
+  font-family: Nunito-Regular;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #232323;
+  margin-bottom: 5px;
+}
+
+.austinland__green-blue{
+    @extend .austinland__limedium-green;
+    background-color:#00bb96;
+}
+.austinland__earth{
+    @extend .austinland__limedium-green;
+    background-color:#9e6543;
+}
+.austinland__blueberry{
+    @extend .austinland__limedium-green;
+    background-color:#5a3588;
+}
+.austinland__azul{
+    @extend .austinland__limedium-green;
+    background-color:#3375ea;
+}
+.austinland__yelloworange{
+    @extend .austinland__limedium-green; 
+    background-color:#f6a800;
+}
+.austinland__barney{
+    @extend .austinland__limedium-green;   
+    background-color:#a627d7;
+}
+
+.austinland__dusk{
+    @extend .austinland__limedium-green;  
+    background-color:#43567a;
+}
+
+.austinland__mediumpink{
+    @extend .austinland__limedium-green;   
+    background-color:#ee5a9f;
+}
+
+.austinland__orangish{
+    @extend .austinland__limedium-green;   
+    background-color:#ff7c39;
+    padding: 6px;
+}
+.span--pdg{
+    padding: 4px 5px !important;
+}
+.austinland__coral{
+    @extend .austinland__limedium-green;   
+    background-color:#f24c4c;
+    padding: 6px;
+}
+
+.austinland__purple{
+    @extend .austinland__limedium-green;   
+    background-color:#a32a97;
+    padding: 6px;
+}
+
+.austinland__purlishgrey{
+    @extend .austinland__limedium-green;   
+    background-color:#565557;
+    padding: 6px;
+}
+.padding--10px{
+    padding: 10px 0px;
+}
+.btngrp{
+    width: 100%;
+    margin: 0 auto;
+    background-color:#001834; 
+}
+
+.austinlandpstin__listnormalfont{
+    font-weight: normal;
+ 
+}
+.btncnt{
+padding: 80px 0px;
+}
+.btnlnk{
+    height: 50px;;
+    margin: 10px 10px;
+    border-radius: unset;
+    color: #a3b6cc;
+    font-size: 15px;
+    font-display:Poppins-SemiBold;
+    font-weight: 600;
+    font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+.btnlnk:hover{
+color: #a3b6cc;
+cursor: auto !important; 
+border-color: #6c757d;
+
+}

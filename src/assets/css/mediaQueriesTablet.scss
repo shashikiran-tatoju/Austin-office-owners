@@ -1,0 +1,371 @@
+@media screen and (max-width: 1024px) {
+    .maincontainer {
+        width: 100%;  
+        height: auto;
+    }
+    .maincontainer__content {
+        width: 95% !important;
+        margin: 0px auto;
+    }
+    .container{
+        width: 93% ;
+        margin: 0 auto;
+       } 
+    .header__logoimg {
+        height: 84px;
+        width: 135px;
+        background-size: 98px;
+
+    }
+    .navbar{
+        width: 84%;
+        margin: 0 auto;
+    }
+    .maincontainer__USNews ,.maincontainer__BTL , .maincontainer__AT {
+        padding: 10px 77px;
+    }
+
+    .BOFIcon , .GRIcon,.EGIcon,.URIcon,.HEAIcon{
+            margin-right: 0px;
+       }
+
+
+    .pdg--all {
+        padding: 4% 0% 0% 2% ;
+    }
+   
+
+   .col__text1 {
+       font-size:33px;
+       }
+   .col__text2 {
+       font-size:20px;
+       width: 100%;
+    
+       }
+    .col__text3 {
+        font-size:13px;
+        width: 100%;
+       }
+       .mr--mrgn {
+        margin-right: 10%;
+    }
+//-------------------------------------------WHY AUSTIN PAGE Starts---------------------------------------------
+
+// .whyaustin-mainimg{
+//     height: 35% !important;
+// }
+  .whyAustin__subheader {
+    width: 100%;
+    }
+  .whyAustin__headerpara {
+        width:100%;
+       }
+  .whycont {
+        padding-bottom:0px !important; 
+       }
+    .wayAustin__text{
+        width: 100% !important;
+        padding-left: 80px;
+    }
+    
+    .whyaustinimg {
+      
+        width: 100% !important;
+        height:auto !important;
+    }
+    .whyAustinContent__text {
+        width:100% !important;
+        padding-left: 5px;
+    }
+
+//-------------------------------------------Austin Office Market---------------------------------------------
+    .AOMC {
+        width: 100%;
+    }
+    .AOM__downWith {
+        width: 100%;
+    font-size: 31px;
+    }
+    .AOM__absorption {
+        width: 100%;
+    }
+    .AOM__findmore {
+        margin-top: 93px;
+    }
+
+//--------------------------------------Autin largest office owners---------------------------------------------
+
+    .TopOfficeOwner__heading {
+        font-size: 26px;
+        width: 93%;
+        margin: 0 auto;
+    }
+    .TopOfficeOwnerContent__text1 {
+        width: 100%;
+    }
+    .TopOfficeOwnerContent__text2 {
+        width: 100%
+    }
+    .TopOfficeOwnerContent__button {
+        margin-top: 11px;
+    }
+    .pdg--top {
+        padding-bottom: 8%;
+        padding-top: 0%;
+    }
+    .mapimg {
+        padding: 30px 0px;
+        width: 100%;
+    }
+    .austinlandpstin__u{
+        margin: 0px;
+        padding: 0px;
+    }
+    .ulli {
+        font-size: 13px;
+        width:100%;
+    }
+    .btnlnk {
+        margin: 10px 7px;
+        color: #a3b6cc;
+        font-size: 13px;
+    }
+}
+
+// *********************************************MEDIA QUERIES FOR *******************************************
+
+@media screen and (max-width:856px) {
+
+    .navbar {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .nav-link {  
+        font-size: 10px !important;
+        font-family: Poppins-SemiBold;
+    }
+    .mobileView__txtWidth{
+        padding:0px;
+    }
+    .maincontainer__USNews, .maincontainer__BTL, .maincontainer__AT {
+        padding: 10px 0px 0px 66px;
+    }
+
+    .whyAustin__subheader {
+        font-size: 20px !important;
+    }
+    // .whyAustin__headerpara{
+    //     font-size: 12px;
+
+    // } 
+    // .wayAustin__text {
+    //     font-size: 20px;
+    // }
+  
+    .groupimg {
+        width: 100%;
+        height: 311px;
+    }
+    .whyAustinContent__btn {
+        height: 25px;
+        padding: 3px 8px;
+    }
+    .TopOfficeOwner__heading {
+        font-size: 26px;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .btnlnk {
+        height: 45px;
+        margin: 5px 5px !important;
+        font-size: 11px !important;
+    }
+    
+    .ulli {
+        font-size: 11px !important;
+        width: 100%;
+    }
+    .austinlandpstin__ul{
+
+        width: 100%;
+       padding: 0px;
+    }
+
+    .austinland__img {
+        width: 100%;
+        height: auto;
+    }
+}
+// *********************************************MEDIA QUERIES FOR *******************************************
+@media screen and (max-width:768px) {
+    .navbar {
+        width: 86%;
+        margin: 0 auto;
+    }
+    .maincontainer__AT {
+        font-size: 20px;
+    }
+    .maincontainer__BTL {
+        font-size: 45px;
+    }
+    .maincontainer__USNews {
+        font-size: 14px;
+    }
+    .maincontainer__USNews, .maincontainer__BTL, .maincontainer__AT {
+        padding: 10px 0px 0px 56px;
+    }
+   
+    .col__text1 {
+        font-size: 28px;
+    }
+    .col__text2 {
+        font-size: 17px;
+        padding-right: 7px;
+    }
+    .col__text3 {
+        font-size: 10px;
+    }
+    .bgClr--col3 {
+        background-color: #31b2e0;
+        height: 207px;
+    }
+    .bgClr--col2 {
+        background-color: #ffc038;
+        height: 207px;
+    }
+
+    .bgClr--col1 {
+        background-color: #ff6666;
+        height: 207px;
+    }
+    .bgClr--col4 {
+        background-color: #34304c;
+        height: 207px;
+    }
+    //------------------------------------------WHY AUSTIN --------------------
+    .whyaustin_header{
+        font-size: 30px;
+    }
+    .whyAustin__subheader {
+        font-size: 15px !important;
+    }
+    .whyAustin__headerpara {
+        font-size: 11px;
+    }
+    .BOFIcon,.BOFIcon, .GRIcon, .EGIcon, .URIcon, .HEAIcon {
+     width: 61px;
+    height: 61px;
+    background-size: 57px;
+    }
+
+    .wayAustin__text {
+        font-size: 15px;
+    }
+
+    .groupimg {
+        width: 100%;
+        height: 260px;
+    }
+    .whyAustinContent__text {
+        font-size: 13px;
+        padding-left: 0px;
+        margin-bottom: 1px;
+        letter-spacing: normal;
+    }
+    .whyAustinContent__btn {
+        height: 20px;
+        padding: 1px 5px;
+    }
+
+    //----------------------AOM--------------
+
+    .AOM__heading {
+        font-family: Poppins-Bold;
+        font-size: 30px;
+        }
+
+    .AOM__downWith {
+    width: 100%;
+    font-size: 27px;
+    padding-left: 22px;
+   }
+
+   .AOM__absorption {
+       font-size: 15px;
+       line-height: 1.5 !important;
+       padding-left: 22px;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 0px;
+}
+.AMOC__number {
+    font-size: 15px;
+}
+.AOM__findmore {
+    margin-left: 20px;
+    padding: 12px 0px;
+    font-size: 14px;
+}
+.TopOfficeOwner__heading {
+    font-size: 25px;
+    width: 79%;
+    margin: 0 auto;
+}
+.pdg--cntr {
+    text-align: center !important;
+    padding-top: 5% !important;
+    padding-left: 0px;
+}
+.TopOfficeOwnerContent__text1 {
+   margin-left: 25px;
+   font-size: 25px;
+}
+.TopOfficeOwnerContent__text2 {
+   margin-left: 25px;
+
+}
+
+.TopOfficeOwnerContent__button {
+    margin-top: 36px;
+    margin-left: 25px;
+    width: 120px;
+    padding: 8px 0px;
+    font-size: 14px;
+}
+.austinland__header {
+    padding: 8% 0%;
+    width: 100%;
+    font-size: 30px;
+}
+
+
+
+.ulli {
+    font-size: 9px !important;
+    width: 100%;
+}
+
+.btnlnk {
+    height: 40px;
+    margin: 7px 5px !important;
+    font-size: 10px !important;
+    padding: 10px 12px;
+}
+
+.cntheader {
+    font-size: 25px;
+}
+.sendButton {
+    height: 56px;
+    width: 159px;
+}
+
+}
+
+
+

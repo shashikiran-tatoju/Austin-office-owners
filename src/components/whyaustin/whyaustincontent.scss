@@ -1,0 +1,84 @@
+ @font-face{
+    font-family:Poppins-Light;
+    src:url('../../assets/fonts/Poppins-Light.ttf');
+ }
+ @font-face{
+     font-family:Poppins-Regular;
+     src:url('../../assets/fonts/Poppins-Regular.ttf');
+ }
+ @font-face{
+    font-family: Poppins-Bold;
+    src:url('../../assets/fonts/Poppins-Bold.ttf');
+ }
+ @font-face{
+   font-family:Poppins-Medium;
+   src:url('../../assets/fonts/Poppins-Medium.ttf');
+}
+ .whyAustinContent__btn{ 
+  height: 35px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+ text-transform: uppercase;
+ }
+ .whyAustinContent__text{
+//   padding: 3% 0% 0% 0%;
+//   width: 600px; 
+//   font-family: Poppins-Regular;
+//   font-size: 18px;
+//   line-height: 1.44;
+//   letter-spacing: normal;
+//   color: var(--black);
+width: 539px;
+font-family:Poppins-Medium;
+font-size: 18px;
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.44;
+letter-spacing: normal;
+color: var(--black);
+  padding: 3% 0% 0% 0%;
+
+
+ } 
+ .pdg--5per{
+    padding: 5% 0%;
+ }
+ .btn--yellow{
+    background-color: #ffc038;
+    font-family:Poppins-Light;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+ }
+ .btn--blue{
+    @extend.btn--yellow;
+    background-color: #31b2e0;
+    letter-spacing: 2px;
+    padding: 0px 13px;
+    cursor: pointer;
+ }
+ .btn--red{
+    @extend.btn--yellow;
+    background-color: #ff6666;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ 
+ .whyaustinimg{
+   vertical-align: middle;
+   border-style: none;
+   width: 447px;
+   height: 300px;
+ }
+ .display--none{
+    display: none !important;
+ }

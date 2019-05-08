@@ -1,0 +1,105 @@
+@font-face{
+    font-family:Poppins-Regular;
+    src:url(../../assets/fonts/Poppins-Regular.ttf)
+}
+@font-face{
+    font-family:Nunito-Regular;
+    src:url(../../assets/fonts/Nunito-Regular.ttf);
+}
+@font-face{
+    font-family:Poppins-Bold;
+    src:url(../../assets/fonts/Poppins-Bold.ttf);  
+}
+@font-face{
+    font-family:Poppins-SemiBold;
+    src:url(../../assets/fonts/Poppins-SemiBold.ttf);
+}
+.pading--bottom{
+    padding-bottom: 5% !important;
+}
+
+.TopOfficeOwner{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #fafafa;
+    padding-bottom: 5%;
+}
+.TopOfficeOwner__heading{
+  font-family:Poppins-Bold;
+  font-size: 39px; 
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--black);
+  padding: 3% 0%;
+  width: 75%;
+  margin: 0px auto;
+
+}
+.clr--white{
+    background-color: #ffffff; 
+    padding-top: 20px;
+}
+.pdg--cntr{
+    text-align: center !important;
+    padding-top: 5% !important;
+}
+.pdg--top{
+    padding-top: 5% !important;
+}
+.display--none{
+    display: none;
+}
+.TopOfficeOwnerContent__text1{
+  width: 538px;
+  padding: 5px 0px;
+  font-family:Poppins-Bold;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+}
+.TopOfficeOwnerContent__text2{
+    width: 538px;
+    height: 72px;
+    font-family: Nunito-Regular;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #232323;
+}
+.TopOfficeOwnerContent__button{
+    width: 135px;
+    padding: 12px 0px;
+    font-family:Poppins-SemiBold;
+    font-size: 15px; 
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black); 
+    background-color: #ffffff;
+    border: 1px solid #838383;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.TopOfficeOwnerContent__button:hover{
+    background-color:#003681;
+    color: #ffffff;
+}
+.padng--0px{
+    padding: 0px !important;
+}
+.TopOfficeOwnerContent__image{
+  width: 264px;
+  height: 204px;
+  margin-top: 15px;
+}
